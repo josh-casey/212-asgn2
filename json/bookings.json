@@ -1,0 +1,90 @@
+{
+	"bookings": {
+		"booking": [
+			{
+				"number": "101",
+				"name": "Mr and Mrs Smith",
+				"checkin": {
+					"day": "15",
+					"month": "8",
+					"year": "2018"
+				},
+				"checkout": {
+					"day": "21",
+					"month": "8",
+					"year": "2018"
+				}
+			},
+			{
+				"number": "203",
+				"name": "Alice, Bob, and family",
+				"checkin": {
+					"day": "12",
+					"month": "8",
+					"year": "2018"
+				},
+				"checkout": {
+					"day": "17",
+					"month": "8",
+					"year": "2018"
+				}
+			},
+			{
+				"number": "204",
+				"name": "Alice, Bob, and family",
+				"checkin": {
+					"day": "12",
+					"month": "8",
+					"year": "2018"
+				},
+				"checkout": {
+					"day": "17",
+					"month": "8",
+					"year": "2018"
+				}
+			},
+			{
+				"number": "203",
+				"name": "Carol and Dave",
+				"checkin": {
+					"day": "17",
+					"month": "8",
+					"year": "2018"
+				},
+				"checkout": {
+					"day": "21",
+					"month": "8",
+					"year": "2018"
+				}
+			},
+			{
+				"number": "101",
+				"name": "Nicks Test # 101",
+				"checkin": {
+					"day": "1",
+					"month": "10",
+					"year": "2018"
+				},
+				"checkout": {
+					"day": "10",
+					"month": "10",
+					"year": "2018"
+				}
+			},
+			{
+				"number": "203",
+				"name": "Nicks Test # 203",
+				"checkin": {
+					"day": "1",
+					"month": "10",
+					"year": "2018"
+				},
+				"checkout": {
+					"day": "10",
+					"month": "10",
+					"year": "2018"
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,66 @@
+{
+	"campSites": {
+		"site": [
+			{
+				"number": "101",
+				"siteType": "Tent",
+				"description": "Tent site.",
+				"pricePerNight": "40.0"
+			},
+			{
+				"number": "102",
+				"siteType": "Tent",
+				"description": "tent site.",
+				"pricePerNight": "40.0"
+			},
+			{
+				"number": "201",
+				"siteType": "Tent",
+				"description": "Tent site",
+				"pricePerNight": "40.0"
+			},
+			{
+				"number": "202",
+				"siteType": "Tent",
+				"description": "tent site",
+				"pricePerNight": "40.0"
+			},
+			{
+				"number": "203",
+				"siteType": "Cabin",
+				"description": "Cabin",
+				"pricePerNight": "195.00"
+			},
+			{
+				"number": "204",
+				"siteType": "Cabin",
+				"description": "Cabin",
+				"pricePerNight": "80.0"
+			},
+			{
+				"number": "205",
+				"siteType": "Cabin",
+				"description": "Cabin",
+				"pricePerNight": "80.0"
+			},
+			{
+				"number": "301",
+				"siteType": "Cabin",
+				"description": "Cabin",
+				"pricePerNight": "90.0"
+			},
+			{
+				"number": "302",
+				"siteType": "Van",
+				"description": "Van",
+				"pricePerNight": "60.0"
+			},
+			{
+				"number": "303",
+				"siteType": "Van",
+				"description": "Van.",
+				"pricePerNight": "60.0"
+			}
+		]
+	}
+}

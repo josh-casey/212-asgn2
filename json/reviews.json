@@ -1,0 +1,17 @@
+[
+	{
+	"title": "Great Campsite",
+	"author": "Test User",
+	"reviewcontent": "Great Campsite, I would come back and recommend this location."
+	},
+	{
+		"title": "Nice and quite campsite",
+		"author": "Test User2",
+		"reviewcontent": "Nice campsite in quiet neighborhood."
+	},
+	{
+		"title": "Close to the beach",
+		"author": "Test User3",
+		"reviewcontent": "Nice and close to the beach. I recommend this location."
+	}
+]
