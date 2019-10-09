@@ -51,28 +51,33 @@ var Booking = (function () {
             booking = {};
             booking.name = $("#guestName").val();
             booking.site = $("#site").val();
-            booking.in = inDate.val();
-            booking.out = outDate.val();
+            booking.in = new Date(inDate.val());
+            booking.out = new Date(outDate.val());
             booking.contact = $("#contact").val();
 
             var checkValid = validate.checkValid(inDate.datepicker("getDate"), outDate.datepicker("getDate"), booking.name, booking.contact);
-
+            var dayIn = booking.in.getDate();
+            var monthIn = booking.in.getMonth();
+            var yearIn = booking.in.getFullYear();
+            var dayOut = booking.out.getDate();
+            var monthOut = booking.out.getMonth();
+            var yearOut = booking.out.getFullYear();
             if (checkValid.length > 0) {
                 checkValid.forEach(function(i) {
                     $("#errors").append(i + "<br>");
                 });
             } else {
-                bookings = window.localStorage.getItem("booking");
-                if (bookings) {
-                    bookings = JSON.parse(bookings);
-                } else {
-                    bookings = [];
-                }
-
-                bookings.push(booking);
-                window.localStorage.setItem("booking", JSON.stringify(bookings));
-                bookingSubmit();
-                location.reload();
+                var dataString = "name=" + booking.name + "&site=" + booking.site + "&checkin-day=" + dayIn +
+                "&checkin-month=" + monthIn + "&checkin-year=" + yearIn + "&checkout-day=" + dayOut +
+                "&checkout-month=" + monthOut + "&checkout-year=" + yearOut;
+                $.ajax({
+                    type:'POST',
+                    data:dataString,
+                    url: './private/addBooking.php',
+                    success:function(data) {
+                        alert(data);
+                    }
+                });
             }
         });
     }
